@@ -1,0 +1,20 @@
+{
+  "name": "didactic-octo-telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marijunjnja/didactic-octo-telegram.git"
+  },
+  "author": "marijunjnja - Mari Junjnja",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/marijunjnja/didactic-octo-telegram/issues"
+  },
+  "homepage": "https://github.com/marijunjnja/didactic-octo-telegram#readme"
+}
