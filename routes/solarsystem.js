@@ -35,9 +35,7 @@ solarsystem.use('/saturn', saturn)
 
 // Uranus page
 const uranus = require('./solarsystem/uranus')
-solarsystem.use('/uranus', (req, res) => {
-  res.send('Uranus main page')
-})
+solarsystem.use('/uranus', uranus)
 
 // Neptune page
 const neptune = require('./solarsystem/neptune')
