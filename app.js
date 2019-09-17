@@ -3,9 +3,12 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-// app.use(express.static(__dirname + '/app'))
+app.set('views', './views')
+app.set('view engine', 'ejs')
+app.use(express.static('media'))
+
 app.get('/', (req, res) => {
-  res.send('All Things Space')
+  res.render('index', { title: 'All Things Space' })
 })
 
 // Router imports

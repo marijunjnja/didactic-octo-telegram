@@ -2,7 +2,7 @@ const solarsystem = require('express').Router()
 
 // Solar System home page
 solarsystem.get('/', (req, res) => {
-  res.send('Solar System home page shit')
+  res.render('solarsystem', { title: 'Our Solar System' })
 })
 
 // Sun page
