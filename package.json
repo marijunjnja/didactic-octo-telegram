@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/marijunjnja/didactic-octo-telegram/issues"
   },
-  "homepage": "https://github.com/marijunjnja/didactic-octo-telegram#readme"
+  "homepage": "https://github.com/marijunjnja/didactic-octo-telegram#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
