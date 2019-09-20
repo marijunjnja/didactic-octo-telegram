@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+      <script>
+        navigator.geolocation.getCurrentPosition((pos) => {
+          console.log(pos.coords)
+          var xhttps = new XMLHttpRequest()
+          xhttps.open('post', '/satellites/iss', true)
+          xhttps.send(pos.coords)
+        })
+
+        setTimeout(() => {
+          var xhttps = new XMLHttpRequest()
+          xhttps.open('get', '/satellites/iss', true)
+          xhttps.send()
+        }, 5000)
+      </script>
+    <h1>off</h1>
+    <p><%= issDistance %></p>
+  </body>
+</html>

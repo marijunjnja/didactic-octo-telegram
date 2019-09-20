@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
   "dependencies": {
     "ejs": "^2.7.1",
     "express": "^4.17.1",
+    "geolib": "^3.0.4",
+    "geolocation": "^0.2.0",
+    "got": "^9.6.0",
+    "html5-geolocation": "^2.0.0",
     "nodemon": "^1.19.2"
   },
   "devDependencies": {},
