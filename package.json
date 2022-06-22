@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "geolib": "^3.0.4",
     "geolocation": "^0.2.0",
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "html5-geolocation": "^2.0.0",
     "nodemon": "^1.19.2"
   },
