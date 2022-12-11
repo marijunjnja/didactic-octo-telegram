@@ -19,7 +19,7 @@
   "homepage": "https://github.com/marijunjnja/didactic-octo-telegram#readme",
   "dependencies": {
     "ejs": "^2.7.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "geolib": "^3.0.4",
     "geolocation": "^0.2.0",
     "got": "^9.6.0",
